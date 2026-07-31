@@ -1,0 +1,51 @@
+body{
+    background-color:pink;
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+#header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    border:2px solid black;
+}
+
+.navigation a{
+    margin-left:20px;
+    text-decoration:none;
+    color:black;
+}
+
+#hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px;
+}
+
+.content button{
+    padding:10px 20px;
+}
+
+#features{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+}
+
+.card{
+    border:2px solid black;
+    padding:25px;
+    margin:10px;
+    width:150px;
+    text-align:center;
+}
+
+#footer{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    border-top:2px solid black;
+}
