@@ -48,6 +48,6 @@ This project helped me practice:
 
 👩‍💻 Author
 
-Lalikrishna143
+Lalitha Ramachandra
 
 ECE Student | Front-End Beginner
