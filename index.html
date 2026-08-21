@@ -5,58 +5,343 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aroma Coffee Shop</title>
-    <link rel="stylesheet" href="style.css">
+
+    <meta name="description"
+        content="Aroma Coffee Shop - Fresh coffee, delicious flavors and a relaxing atmosphere.">
+
+    <title>Aroma Coffee Shop | Fresh Coffee, Fresh Mood</title>
+
+    <!-- Connect CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <div id="header">
-        <img src="logo.png" alt="Aroma Logo">
+    <!-- Header -->
+    <header class="header">
 
-        <div class="navigation">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Menu</a>
-            <a href="#">Contact</a>
-        </div>
-    </div>
-
-    <div id="hero">
-        <div class="content">
-            <h1>Welcome to Aroma Coffee Shop</h1>
-            <p>Fresh Coffee. Fresh Mood.</p>
-            <button>Order Now</button>
+        <div class="logo">
+            <span>☕</span>
+            <h2>Aroma</h2>
         </div>
 
-        <img src="coffee.jpg" alt="Coffee">
-    </div>
+        <!-- Navigation -->
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <div id="features">
+    </header>
 
-        <div class="card">
-            <h2>Espresso</h2>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="tagline">WELCOME TO AROMA</p>
+
+                <h1>
+                    Fresh Coffee.
+                    <span>Fresh Mood.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Enjoy freshly brewed coffee made with quality
+                    ingredients and served with warmth.
+                </p>
+
+                <a href="#menu" class="btn">
+                    Explore Our Menu
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="coffee.jpg" alt="Freshly brewed coffee">
+            </div>
+
+        </section>
+
+
+        <!-- Features Section -->
+        <section class="features">
+
+            <div class="feature-card">
+                <div class="feature-icon">☕</div>
+                <h3>Fresh Coffee</h3>
+                <p>Freshly brewed coffee prepared with care.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌱</div>
+                <h3>Quality Beans</h3>
+                <p>Selected coffee beans for a rich and smooth taste.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">❤️</div>
+                <h3>Made With Love</h3>
+                <p>Every cup is prepared with passion and care.</p>
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="about">
+
+            <div class="about-image">
+                <img src="coffee.jpg" alt="Coffee at Aroma Coffee Shop">
+            </div>
+
+            <div class="about-content">
+
+                <p class="section-label">ABOUT US</p>
+
+                <h2>A Place for Coffee Lovers</h2>
+
+                <p>
+                    Aroma Coffee Shop is a cozy place created for people
+                    who enjoy great coffee and peaceful moments.
+                </p>
+
+                <p>
+                    From classic espresso to creamy cappuccino and
+                    delicious mocha, we prepare every drink with
+                    carefully selected ingredients.
+                </p>
+
+                <a href="#contact" class="secondary-btn">
+                    Visit Us
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu">
+
+            <div class="section-heading">
+
+                <p class="section-label">OUR MENU</p>
+
+                <h2>Popular Coffee</h2>
+
+                <p>
+                    Discover some of our customer's favorite coffee choices.
+                </p>
+
+            </div>
+
+
+            <div class="menu-container">
+
+                <!-- Espresso -->
+                <article class="menu-card">
+
+                    <div class="coffee-image">
+                        <img src="coffee.jpg" alt="Espresso coffee">
+                    </div>
+
+                    <div class="menu-content">
+
+                        <h3>Espresso</h3>
+
+                        <p>
+                            Rich and bold coffee with a strong flavor.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">₹120</span>
+                            <a href="#contact" class="order-btn">Order</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Cappuccino -->
+                <article class="menu-card">
+
+                    <div class="coffee-image">
+                        <img src="coffee.jpg" alt="Cappuccino coffee">
+                    </div>
+
+                    <div class="menu-content">
+
+                        <h3>Cappuccino</h3>
+
+                        <p>
+                            Smooth espresso topped with creamy milk foam.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">₹150</span>
+                            <a href="#contact" class="order-btn">Order</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Latte -->
+                <article class="menu-card">
+
+                    <div class="coffee-image">
+                        <img src="coffee.jpg" alt="Latte coffee">
+                    </div>
+
+                    <div class="menu-content">
+
+                        <h3>Latte</h3>
+
+                        <p>
+                            Smooth espresso blended with steamed milk.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">₹160</span>
+                            <a href="#contact" class="order-btn">Order</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Mocha -->
+                <article class="menu-card">
+
+                    <div class="coffee-image">
+                        <img src="coffee.jpg" alt="Mocha coffee">
+                    </div>
+
+                    <div class="menu-content">
+
+                        <h3>Mocha</h3>
+
+                        <p>
+                            A delicious combination of coffee and chocolate.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <span class="price">₹180</span>
+                            <a href="#contact" class="order-btn">Order</a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+
+            <div class="contact-content">
+
+                <p class="section-label">CONTACT US</p>
+
+                <h2>Let's Have a Coffee</h2>
+
+                <p>
+                    Have a question or want to reserve a table?
+                    Send us a message.
+                </p>
+
+                <div class="contact-info">
+                    <p>📍 Hyderabad, India</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>✉️ aroma@coffeeshop.com</p>
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+            <form class="contact-form">
+
+                <label for="name">Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label for="message">Message</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message"
+                    required
+                ></textarea>
+
+
+                <button type="submit" class="submit-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+                <h3>Aroma Coffee Shop ☕</h3>
+                <p>Fresh Coffee. Fresh Mood.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+
         </div>
 
-        <div class="card">
-            <h2>Cappuccino</h2>
+        <div class="footer-bottom">
+            <p>© 2026 Aroma Coffee Shop. All rights reserved.</p>
         </div>
 
-        <div class="card">
-            <h2>Latte</h2>
-        </div>
-
-        <div class="card">
-            <h2>Mocha</h2>
-        </div>
-
-    </div>
-
-    <div id="footer">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Instagram</a>
-    </div>
+    </footer>
 
 </body>
 
